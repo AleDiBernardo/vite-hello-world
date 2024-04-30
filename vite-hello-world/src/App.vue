@@ -1,9 +1,11 @@
 <script>
 import AppTitle from "./components/AppTitle.vue";
+import AppBanner from "./components/AppBanner.vue"
 
 export default{
   components: {
-    AppTitle
+    AppTitle,
+    AppBanner
   },
     data(){
         return{
@@ -15,6 +17,7 @@ export default{
 
 <template>
   <AppTitle/>
+  <AppBanner/>
 </template>
 
 <style>
